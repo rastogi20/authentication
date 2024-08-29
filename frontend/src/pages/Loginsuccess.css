@@ -1,0 +1,48 @@
+.loading {
+  text-align: center;
+  padding: 50px;
+  font-size: 1.5em;
+  color: #666;
+}
+
+.welcome-container {
+  text-align: center;
+  padding: 50px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 50px auto;
+}
+
+.welcome-container h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+.welcome-container p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.welcome-container .profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+.welcome-container .logout-button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #ff7e5f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.welcome-container .logout-button:hover {
+  background-color: #feb47b;
+}

@@ -1,0 +1,72 @@
+.home-container {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    height: 100vh;
+    color: white;
+  }
+  
+  .home-container h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+  }
+  
+  .home-container p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+  
+  .buttons .button {
+    background-color: #ffffff;
+    color: #ff7e5f;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+  }
+  
+  .buttons .button:hover {
+    background-color: #feb47b;
+    color: #ffffff;
+  }
+  
+  .auth-container {
+    text-align: center;
+    padding: 50px;
+    background: #420404;
+    height: 100vh;
+  }
+  
+  .auth-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .auth-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .auth-container input {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+    width: 300px;
+  }
+  
+  .auth-container button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #ff7e5f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .auth-container button:hover {
+    background-color: #feb47b;
+  }
+  
